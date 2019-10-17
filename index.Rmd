@@ -16,6 +16,7 @@ output:
 I often use [google](google.com) to do **data science**.
 
 # Let's add an image
-![](t-sreed.jpg)
-you can learn more about me [here](About.html)
+
+![](t-sreed.png)
+You can learn more about me [here](About.html)
 
