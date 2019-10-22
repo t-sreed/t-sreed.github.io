@@ -8,7 +8,7 @@ output:
 
 # This is Tanu's website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![](http://giphygifs.s3.amazonaws.com/media/O5NyCibf93upy/giphy.gif)
 
 # Let's add some links
 
