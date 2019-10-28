@@ -6,15 +6,15 @@ navbar:
     - text: "About"
       href: About.html
     - text: "Examples"   
-  menu:
-    - text: "Plotly"
-      href: Plotly.html
-    - text: "Dashboard"
-      href: Flex Dashboard.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<t.sreedharan@columbia.edu>
-    - icon: fa-github fa-lg
-      href: http://github.com/t-sreed/
+      menu:
+      - text: "Plotly"
+        href: Plotly.html
+      - text: "Dashboard"
+        href: Flex Dashboard.html
+      - icon: fa-envelope fa-lg
+        href: mailto:<t.sreedharan@columbia.edu>
+      - icon: fa-github fa-lg
+        href: http://github.com/t-sreed/
 output:
   html_document:
     theme: flatly
