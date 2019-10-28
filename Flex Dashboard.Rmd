@@ -10,11 +10,29 @@ library(flexdashboard)
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
+
 library(plotly)
 ```
 
-Column {data-width=650}
 -----------------------------------------------------------------------
+
+```{r}
+data("nyc_airbnb")
+set.seed(1)
+nyc_airbnb = 
+  nyc_airbnb %>% 
+  mutate(rating = review_scores_location / 2) %>%
+  select(
+    neighbourhood_group, neighbourhood, rating, price, room_type, lat, long) %>%
+  filter(
+    !is.na(rating), 
+    neighbourhood_group == "Manhattan",
+    room_type == "Entire home/apt",
+    price %in% 100:500)  %>% 
+  sample_n(5000)
+```
+
+Column {data-width=650}
 
 ### Chart A
 
