@@ -11,6 +11,8 @@ navbar:
         href: Plotly.html
       - text: "Dashboard"
         href: flex_dashboard.html
+     - text: "Professional and Academic Experience"
+        href: Experience.html
     - icon: fa-envelope fa-lg
       href: mailto:<t.sreedharan@columbia.edu>
     - icon: fa-github fa-lg

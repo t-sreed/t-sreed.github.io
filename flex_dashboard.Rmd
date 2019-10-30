@@ -2,19 +2,18 @@
 title: "My first dashboard"
 output: 
   flexdashboard::flex_dashboard:
-  orientation: columns
-  vertical_layout: fill
+    orientation: columns
+    vertical_layout: fill
+    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
-library(flexdashboard)
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
+library(flexdashboard)
 library(plotly)
 ```
-
-
 
 Column {data-width=650}
 -----------------------------------------------------------------------
@@ -23,12 +22,9 @@ Column {data-width=650}
 
 ```{r}
 nyc_airbnb %>% 
-  plot_ly(
-    x= ~lat, y= ~long, type="scatter", mode="markers",
+  plot_ly(x = ~lat, y = ~long, type = "scatter", mode = "markers",
           color = ~price, alpha = 0.5)
 ```
-
-
 
 Column {data-width=350}
 -----------------------------------------------------------------------
@@ -38,7 +34,8 @@ Column {data-width=350}
 ```{r}
 nyc_airbnb %>% 
   mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
-  plot_ly(y = ~price, color = ~neighbourhood, type = "box")
+  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
+          colors = "Set2")
 ```
 
 ### Chart C
@@ -47,6 +44,4 @@ nyc_airbnb %>%
 nyc_airbnb %>% 
   count(neighbourhood) %>% 
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
-  plot_ly(x=~neighbourhood, y=~n, type="bar")
-```
-
+  plot_ly(x = ~neighbourhood, y = ~n, type = "bar")
