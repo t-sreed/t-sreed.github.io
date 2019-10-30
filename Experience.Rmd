@@ -6,5 +6,65 @@ html_document:
   toc_float:true
 ---
 
-# Resume
+# **Bio**
+
+# **Professional**
+### NYV DEPARTMENT OF HEALTH AND MENTAL HYGEINE 
+#### Queens, NY
+#### HRTP INTERN 
+#### JUNE 2019 - PRESENT
+*	Review assessment data and electronic health records from early childhood mental health clinics for completion
+*	Clean and organize 28 data sets from 7 different clinics for merging into comprehensive datasets using SAS macros 
+*	Run bivariate analyses to evaluate clinic utilization for 7 Early Childhood Therapeutic Centers across NYC
+*	Support the creation of analysis plan and write SAS program per analysis plan
+
+### MARIAN WRIGHT EDELMAN INSTITUTE EDVANCE
+#### San Francisco, CA
+#### Fiscal Incentives Coordinator
+#### October 2017 - March 2018
+*	Collected, compiled, analyzed and updated applicant data to the California Early Care & Education Registry
+*	Created and distributed outreach materials, including fliers, social media posts, email blasts and telephone calls, regarding information about our four distinct programs 
+*	Conducted over 50 presentations in college classrooms, preschool staff meetings, and career fairs to provide detailed information about our financial incentive program application process
+*	Tracked 400+ student applications and assisted those students via phone and email to complete all materials
+*	Collaborated with community college and preschool staff in the area to provide financial support and educational tutoring for students and staff
+
+### ONE MEDICAL GROUP
+#### San Francisco, CA
+#### Patient Care Coordinator/Billing Specialist 
+#### December 2015 - September 2017
+*	Researched, created, and tested evaluation methods for practice improvement among the administrative team
+*	Coordinated and facilitated 4 quarterly extended learning workshops for practice improvement for the staff 
+*	Educated patients about their specific medical coverage and benefits daily in office and via email and telephone
+*	Investigated and posted insurance claim payments to our internal payment system
+*	Worked as a liaison between medical team and patients to address immediate health concerns
+*	Navigated patient barriers to care with clinicians, billing specialists, and patients themselves 
+
+
+### SFSU CHILD AND ADOLESCENT DEVELOPMENT DEPARTMENT 
+#### Vrygrond, Capetown 
+#### Teacher/Facilitator 
+#### June - July 2015
+* Implemented ECE curriculum in two preschools by assisting preschool teachers daily with lesson planning, material organizing, and problem solving
+* Collaborated with team of 5 to design and implement various faculty professional development events in order to promote cross-cultural community
+* Reinforced effective teaching methods with limited resources to ensure scalability for larger class sizes
+* Promoted and sustained clean and safe environment for students through classroom organizing and evaluations
+	
+### SAN FRANCISCO DEPARTMENT OF PUBLIC HEALTH	
+#### San Francisco, CA
+#### Project Coordinating Intern 
+#### August 2014 - May 2015
+* Managed communication and logistics for San Francisco Department of Public Health and the Trauma Informed Systems Initiative daily
+* Researched, developed and implemented employee trainings for 250+ participants per session
+* Facilitate monthly on-boarding programs for new trainer cohorts
+
+### Skills and Certifications
+R(2019) | SAS (2019) | Microsoft Office (2015) | HIPPA Certification (2018) | CITI Certification(2018) | Metro Academies Child and Adolescent Development Certificate(2015)
+
+# **Academic**
+
+##### COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH
+Master of Public Health: Epidemiology (May 2020)  
+
+#### SAN FRANCISCO STATE UNIVERSITY 
+Bachelor of Science in Health Education (May 2015) 
 

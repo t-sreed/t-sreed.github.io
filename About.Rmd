@@ -6,3 +6,4 @@ html_document:
   toc_float:true
 ---
 
+![](t-sreed.png)

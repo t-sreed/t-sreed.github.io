@@ -15,15 +15,29 @@ library(flexdashboard)
 library(plotly)
 ```
 
+```{r}
+set.seed(1)
+
+data("instacart")
+nyc_instacart = 
+  instacart %>% 
+  select(
+    user_id, reordered, product_name, order_hour_of_day, aisle) %>% 
+  sample_n(5000)
+```
+
 Column {data-width=650}
 -----------------------------------------------------------------------
+
 
 ### Chart A
 
 ```{r}
-nyc_airbnb %>% 
-  plot_ly(x = ~lat, y = ~long, type = "scatter", mode = "markers",
-          color = ~price, alpha = 0.5)
+nyc_instacart %>% 
+  group_by (product_name, reordered, aisle) %>%
+  summarise(n = n()) %>%
+  filter(n>5) %>% 
+  plot_ly(x = ~ n, y = ~ product_name, type = "scatter", mode = "markers", color= ~aisle, alpha = 0.5)
 ```
 
 Column {data-width=350}
@@ -32,16 +46,19 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-nyc_airbnb %>% 
-  mutate(neighbourhood = fct_reorder(neighbourhood, price)) %>% 
-  plot_ly(y = ~price, color = ~neighbourhood, type = "box",
-          colors = "Set2")
+nyc_instacart %>%
+  filter(aisle== c("fresh fruits","fresh vegetables", "packaged vegetables fruits")) %>% 
+  group_by (aisle, product_name) %>% 
+  summarize(n=n()) %>%
+  plot_ly(y = ~n, x= ~aisle, color = ~aisle, type = "bar")
 ```
 
 ### Chart C
 
 ```{r}
-nyc_airbnb %>% 
-  count(neighbourhood) %>% 
-  mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
-  plot_ly(x = ~neighbourhood, y = ~n, type = "bar")
+nyc_instacart %>%
+  filter(aisle== c("fresh fruits")) %>% 
+  group_by (aisle, product_name, order_hour_of_day) %>% 
+  summarize(n=n()) %>%
+  plot_ly(y = ~product_name, x= ~order_hour_of_day, color = ~aisle, mode = "line", type = "scatter")
+```
