@@ -6,10 +6,8 @@ html_document:
   toc_float:true
 ---
 
-# **Bio**
-
-# **Professional**
-### NYV DEPARTMENT OF HEALTH AND MENTAL HYGEINE 
+# Professional
+### NYC DEPARTMENT OF HEALTH AND MENTAL HYGEINE 
 #### Queens, NY
 #### HRTP INTERN 
 #### JUNE 2019 - PRESENT
@@ -60,7 +58,7 @@ html_document:
 ### Skills and Certifications
 R(2019) | SAS (2019) | Microsoft Office (2015) | HIPPA Certification (2018) | CITI Certification(2018) | Metro Academies Child and Adolescent Development Certificate(2015)
 
-# **Academic**
+# Academic
 
 ##### COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH
 Master of Public Health: Epidemiology (May 2020)  

@@ -1,10 +1,11 @@
 ---
-title: "Plotly Examples"
+title: "Instacart Analysis"
 output: 
 html_document:
   code_folding:hide
   toc:true
   toc_float:true
+
 ---
 
 ```{r}
@@ -34,7 +35,7 @@ nyc_instacart %>%
 ```
 ```{r}
 nyc_instacart %>%
-  filter(aisle== c("fresh fruits","fresh vegetables", "packaged vegetables fruits")) %>% 
+  filter(aisle== c( "juice nectars", "water seltzer sparkling water", "fresh fruits","fresh vegetables", "packaged vegetables fruits")) %>% 
   group_by (aisle, product_name) %>% 
   summarize(n=n()) %>%
   plot_ly(y = ~n, x= ~aisle, color = ~aisle, type = "bar")

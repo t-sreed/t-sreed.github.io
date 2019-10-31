@@ -1,21 +1,9 @@
 ---
-title: "Tanu Sreedharan"
+title: "Home"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Tanu's website
-
-![](http://giphygifs.s3.amazonaws.com/media/O5NyCibf93upy/giphy.gif)
-
-# Let's add some links
-
-I often use [google](google.com) to do **data science**.
-
-# Let's add an image
-
-
-You can learn more about me [here](About.html)
-
+This is my first website. Learn about me and my skills by navigating to the tabs above!
