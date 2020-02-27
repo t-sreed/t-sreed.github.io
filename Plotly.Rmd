@@ -23,7 +23,7 @@ nyc_instacart =
   instacart %>% 
   select(
     user_id, reordered, product_name, order_hour_of_day, aisle) %>% 
-  sample_n(5000)
+  sample_n(3000)
 ```
 
 ```{r}

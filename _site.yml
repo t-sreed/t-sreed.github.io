@@ -1,9 +1,9 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "About Me"
+  title: "Tanu Sreedharan"
   right:
-    - text: "Experience"
+    - text: "Career Experience"
       href: Experience.html
     - text: "Dance Experience"
       href: Dance-Experience.html
@@ -21,4 +21,4 @@ navbar:
       href: http://github.com/t-sreed/
 output:
   html_document:
-    theme: sandstone
+    theme: journal
