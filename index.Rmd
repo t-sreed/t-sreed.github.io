@@ -1,9 +1,14 @@
 ---
-title: "Home"
+title: "About Me"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-This is my first website. Learn about me and my skills by navigating to the tabs above!
+**Tanu Sreedharan** is a dynamic public health professional and Master of Public Health Epidemiology candidate with extensive experience in community health. She has significant expertise working with children, youth and families in multiple capacities including program implementation, program evaluation, outreach, communication in multicultural populations, and data analysis.
+
+![](t-sreed.png) 
+PUBLIC HEALTH EPIDEMIOLOGY
+INDIAN CLASSICAL DANCE
+DATA SCIENCE ENTHUSIAST 

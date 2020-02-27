@@ -1,13 +1,13 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "About Me"
   right:
-    - text: "About"
-      href: About.html
     - text: "Experience"
       href: Experience.html
-    - text: "Examples"   
+    - text: "Dance Experience"
+      href: Dance-Experience.html
+    - text: "Examples"
       menu:
       - text: "Instacart Data Analysis Plotly"
         href: Plotly.html
