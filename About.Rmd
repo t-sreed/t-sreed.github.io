@@ -6,6 +6,6 @@ html_document:
   toc_float:true
 ---
 
-**Tanu Sreedharan** is a dynamic public health professional and Master of Public Health Epidemiology candidate with extensive experience in community health. She has significant expertise working with children, youth and families in multiple capacities including program implementation, program evaluation, outreach, communication in multicultural populations, and data analysis.
+**Tanu Sreedharan** is a public health professional and Master of Public Health Epidemiology candidate with extensive experience in community health and data analysis. She has significant expertise working with children, youth and families in multiple capacities including program implementation, program evaluation, outreach, communication in multicultural populations, and data analysis. As a first-generation American woman in data science, she believes that representation is vital to improving the quality of research and access to health resources. Throughout her undergraduate education, she volunteered in middle and high schools to mentor SF Bay Area youth. She is passionate about creating more equitable communities by improving access to resources and influencing policy through data analytics.
 
-<img src="t-sreed.png" style="width:90%">
+<center><img src="t-sreed.png" style="width:90%"></center>
