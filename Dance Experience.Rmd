@@ -5,8 +5,6 @@ output:
     toc_float: true
 ---
 
-Tanu is a highly experienced Dancer and performer with extensive experience in Bharatanatyam who is looking to further grow in versatility.
-
 # Professional Experience
 
 ---

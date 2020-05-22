@@ -33,10 +33,10 @@ nyc_airbnb =
 
 
 
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
-### Chart A
+### NYC Airbnb Rentals with Price and Rating, 2010-2017
 
 ```{r}
 nyc_airbnb %>%
@@ -46,10 +46,10 @@ nyc_airbnb %>%
     color = ~price, text = ~text_label, alpha = 0.5)
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
-### Chart B
+### NYC Airbnb Prices by Neighborhood, 2010-2017
 
 ```{r}
 common_neighborhoods =
@@ -64,7 +64,7 @@ inner_join(nyc_airbnb, common_neighborhoods, by = "neighbourhood") %>%
           colors = "Set2")
 ```
 
-### Chart C
+### Number of Airbnb Rentals by NYC Neighborhood, 2010-2017
 
 ```{r}
 nyc_airbnb %>% 
