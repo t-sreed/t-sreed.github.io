@@ -9,7 +9,9 @@ html_document:
 Tanu is a highly experienced Dancer and performer with extensive experience in Bharatanatyam who is looking to further grow in versatility.
 
 ## Professional Experience
+
 ---
+
 #### Dance Haven 
 #### 2018-Present
 ### Dancer
@@ -30,7 +32,9 @@ multiple productions
 predictions.
 
 ### Education and Professional Training
+
 ---
+
 #### Kalanjali: Dances of India
 #### 2001-Present
 ### Dance Student
@@ -39,7 +43,9 @@ predictions.
 * Attended a three month intensive in Chennai, India with K.P. Yesodha.
 
 ## Previous Performance Highlights
+
 ---
+
 * Drive East, Group Dance NYC, NY (2019)
 * Margam Performance, Solo Guruvayor Temple, Kerala (2017)
 * Counterpulse’s Performing Diaspora, Group Dance SF, CA (2015)
