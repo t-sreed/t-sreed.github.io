@@ -1,16 +1,14 @@
 ---
 title: "About Me"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  html_document
 ---
 
-**Tanu Sreedharan** Tanu Sreedharan is a public health professional and Master of Public Health Epidemiology candidate with a comprehensive background in community health and data analysis. 
+**Tanu Sreedharan** is a public health professional with a comprehensive background in community health and data analysis. 
 
-She has extensive expertise working with children, youth, and families in multiple capacities, including program implementation, program evaluation, outreach, communication, and data analysis. She also has healthcare work experience in both the primary health care technology setting as well as the city government setting.
+She has extensive expertise working with children, youth, and families in multiple capacities, including program implementation, program evaluation, outreach, communication, and data analysis. She also has healthcare work experience in both the health technology setting as well as the city government setting. Most recently, she earned her Master of Public Health in Epidemiology from [Columbia University, Mailman School of Public Health](https://www.mailman.columbia.edu).
 
 <center><img src="t-sreed.png" style="width:65%"></center>
 
-<i>"As a first-generation American woman in data science, I believes that representation is vital to improving the quality of research and access to health resources. I am passionate about creating more equitable communities by improving access to resources and influencing policy through data analytics. To drive meaningful impact in this area, I have dedicated time during my undergraduate career to mentor SF Bay Area middle and high school youth through programs like SF Promise and AVID. I continue my dedication to mentorship through the R.I.S.E. (Resilience, Inclusion, Solidarity, and Empowerment) program at Columbia University"</i>
 
+<i>"As a first-generation American woman in data science, I believe that representation is vital to improving the quality of research and improving accessibility of to health resources. I am passionate about creating more equitable communities by influencing policy through data analytics. To drive meaningful impact in this area, I have dedicated time during my undergraduate career to mentor SF Bay Area middle and high school youth through programs like SF Promise and AVID. I continue my dedication to mentorship through the R.I.S.E. (Resilience, Inclusion, Solidarity, and Empowerment) program at Columbia University"</i>
