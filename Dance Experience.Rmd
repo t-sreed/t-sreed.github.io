@@ -1,48 +1,50 @@
 ---
-title: "<center> Dance Experience</center>"
-output: 
-html_document:
-  toc:true
-  toc_float:true
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 Tanu is a highly experienced Dancer and performer with extensive experience in Bharatanatyam who is looking to further grow in versatility.
 
-## Professional Experience
+# Professional Experience
 
 ---
 
-#### Dance Haven 
-#### 2018-Present
-### Dancer
-* Learn contemporary Bharatanatyam, Bollywood, and Bhangra mix
-choreography.
-* Prepare for performances, by attending all rehears als and meetings
-* Perform in a large two night showcase at the end of our four month semester
+Dance Haven | 2018-Present
 
-### Nava Dance Theater
-##### 2013-2018
-### Company Dancer
+**Dancer**
+
+* Learn contemporary Bharatanatyam, Bollywood, and Bhangra mix
+choreography
+* Prepare for performances, by attending all rehearsals and meetings
+* Perform in a large two night showcase at the end of our four month preparation
+
+Nava Dance Theater | 2013-2018
+
+**Company Dancer**
+
 * Learned choreography that was Bharatanatyam with a contemporary twist for
 multiple productions
 * Attended all rehearsals and practiced choreography from videos
-* Improvised choreography when necessary, as instructed by our director.
-* Attended adavu workshops for strength training outside of regular rehearsals.
+* Improvised choreography when necessary, as instructed by our director
+* Attended adavu workshops for strength training outside of regular rehearsals
 * Performed 30+ shows with live audiences entailing multiple iterations o f three
-predictions.
+predictions
 
-### Education and Professional Training
+# Education and Professional Training
 
 ---
 
-#### Kalanjali: Dances of India
-#### 2001-Present
-### Dance Student
+Kalanjali: Dances of India | 2001-Present
+
+**Dance Student**
+
 * Learned Kalakshetra style Bharatanatyam from K.P. and Katherine Kunhiraman.
 * Performed in multiple lecture demonstrations led by Katherine Kunhiraman.
 * Attended a three month intensive in Chennai, India with K.P. Yesodha.
 
-## Previous Performance Highlights
+# Previous Performance Highlights
 
 ---
 

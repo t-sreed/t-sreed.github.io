@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -250,6 +253,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +323,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -324,68 +400,44 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><center>
-Dance Experience
-</center></h1>
 
 </div>
 
 
 <p>Tanu is a highly experienced Dancer and performer with extensive experience in Bharatanatyam who is looking to further grow in versatility.</p>
-<div id="professional-experience" class="section level2">
-<h2>Professional Experience</h2>
+<div id="professional-experience" class="section level1">
+<h1>Professional Experience</h1>
 <hr />
-<div id="dance-haven" class="section level4">
-<h4>Dance Haven</h4>
-</div>
-<div id="present" class="section level4">
-<h4>2018-Present</h4>
-</div>
-<div id="dancer" class="section level3">
-<h3>Dancer</h3>
+<p>Dance Haven | 2018-Present</p>
+<p><strong>Dancer</strong></p>
 <ul>
-<li>Learn contemporary Bharatanatyam, Bollywood, and Bhangra mix choreography.</li>
-<li>Prepare for performances, by attending all rehears als and meetings</li>
-<li>Perform in a large two night showcase at the end of our four month semester</li>
+<li>Learn contemporary Bharatanatyam, Bollywood, and Bhangra mix choreography</li>
+<li>Prepare for performances, by attending all rehearsals and meetings</li>
+<li>Perform in a large two night showcase at the end of our four month preparation</li>
 </ul>
-</div>
-<div id="nava-dance-theater" class="section level3">
-<h3>Nava Dance Theater</h3>
-<div id="section" class="section level5">
-<h5>2013-2018</h5>
-</div>
-</div>
-<div id="company-dancer" class="section level3">
-<h3>Company Dancer</h3>
+<p>Nava Dance Theater | 2013-2018</p>
+<p><strong>Company Dancer</strong></p>
 <ul>
 <li>Learned choreography that was Bharatanatyam with a contemporary twist for multiple productions</li>
 <li>Attended all rehearsals and practiced choreography from videos</li>
-<li>Improvised choreography when necessary, as instructed by our director.</li>
-<li>Attended adavu workshops for strength training outside of regular rehearsals.</li>
-<li>Performed 30+ shows with live audiences entailing multiple iterations o f three predictions.</li>
+<li>Improvised choreography when necessary, as instructed by our director</li>
+<li>Attended adavu workshops for strength training outside of regular rehearsals</li>
+<li>Performed 30+ shows with live audiences entailing multiple iterations o f three predictions</li>
 </ul>
 </div>
-<div id="education-and-professional-training" class="section level3">
-<h3>Education and Professional Training</h3>
+<div id="education-and-professional-training" class="section level1">
+<h1>Education and Professional Training</h1>
 <hr />
-<div id="kalanjali-dances-of-india" class="section level4">
-<h4>Kalanjali: Dances of India</h4>
-</div>
-<div id="present-1" class="section level4">
-<h4>2001-Present</h4>
-</div>
-</div>
-<div id="dance-student" class="section level3">
-<h3>Dance Student</h3>
+<p>Kalanjali: Dances of India | 2001-Present</p>
+<p><strong>Dance Student</strong></p>
 <ul>
 <li>Learned Kalakshetra style Bharatanatyam from K.P. and Katherine Kunhiraman.</li>
 <li>Performed in multiple lecture demonstrations led by Katherine Kunhiraman.</li>
 <li>Attended a three month intensive in Chennai, India with K.P. Yesodha.</li>
 </ul>
 </div>
-</div>
-<div id="previous-performance-highlights" class="section level2">
-<h2>Previous Performance Highlights</h2>
+<div id="previous-performance-highlights" class="section level1">
+<h1>Previous Performance Highlights</h1>
 <hr />
 <ul>
 <li>Drive East, Group Dance NYC, NY (2019)</li>
@@ -402,6 +454,8 @@ Dance Experience
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -434,6 +488,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
