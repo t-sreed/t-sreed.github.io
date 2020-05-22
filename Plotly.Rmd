@@ -17,12 +17,11 @@ library(plotly)
 
 ```{r}
 set.seed(1)
-
 data("instacart")
 nyc_instacart = 
   instacart %>% 
   select(
-    user_id, reordered, product_name, order_hour_of_day, aisle) %>% 
+    user_id, reordered, product_name, days_since_prior_order, order_hour_of_day, aisle) %>% 
   sample_n(3000)
 ```
 
@@ -30,7 +29,7 @@ nyc_instacart =
 nyc_instacart %>% 
   group_by (product_name, reordered, aisle) %>%
   summarise(n = n()) %>%
-  filter(n>5) %>% 
+  filter(n %in% 5:25) %>% 
   plot_ly(x = ~ n, y = ~ product_name, type = "scatter", mode = "markers", color= ~aisle, alpha = 0.5)
 ```
 ```{r}
@@ -38,13 +37,19 @@ nyc_instacart %>%
   filter(aisle== c( "juice nectars", "water seltzer sparkling water", "fresh fruits","fresh vegetables", "packaged vegetables fruits")) %>% 
   group_by (aisle, product_name) %>% 
   summarize(n=n()) %>%
-  plot_ly(y = ~n, x= ~aisle, color = ~aisle, type = "bar")
+  plot_ly(y = ~n, x= ~aisle, color = ~aisle, type = "bar") %>%
+  layout(
+    xaxis = list(
+      categoryorder = "array",
+      categoryarray = ~c("fresh fruits","fresh vegetables", "packaged vegetables fruits", "water seltzer sparkling water", "juice nectars") )
+    )
+
 ```
 ```{r}
 nyc_instacart %>%
-  filter(aisle== c("fresh fruits")) %>% 
+  filter(aisle== c("fresh fruits", "fresh vegetables"), order_hour_of_day %in% 5:15 ) %>% 
   group_by (aisle, product_name, order_hour_of_day) %>% 
   summarize(n=n()) %>%
-  plot_ly(y = ~product_name, x= ~order_hour_of_day, color = ~aisle, mode = "line", type = "scatter")
+  plot_ly(y =  ~product_name, x=~order_hour_of_day, color=~aisle, mode = "markers", type = "scatter")
 ```
 

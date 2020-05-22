@@ -7,6 +7,7 @@ html_document:
 ---
 
 # Professional
+---
 ### NYC DEPARTMENT OF HEALTH AND MENTAL HYGEINE 
 #### Queens, NY
 #### HRTP INTERN 
@@ -56,10 +57,10 @@ html_document:
 *	Facilitated monthly on-boarding programs for new trainer cohorts
 
 ### Skills and Certifications
-R(2019) | SAS (2019) | Microsoft Office (2015) | HIPPA Certification (2018) | CITI Certification(2018) | Metro Academies Child and Adolescent Development Certificate(2015)
+RedCap (2019) |R(2019) | SAS Enterprise (2020) | SAS (2019) | Microsoft Office (2015) | HIPPA Certification (2018) | CITI Certification(2018) | Metro Academies Child and Adolescent Development Certificate(2015)
 
 # Academic
-
+---
 ##### COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH
 Master of Public Health: Epidemiology (May 2020)  
 
@@ -67,7 +68,7 @@ Master of Public Health: Epidemiology (May 2020)
 Bachelor of Science in Health Education (May 2015) 
 
 # Other Activities 
-
+---
 ### R.I.S.E. (Resilience, Inclusion, Solidarity, and Empowerment) Mentorship Program
 #### 2019-2020
 * Mentored first-generation student of color peers of at Columbia University through navigating the graduate school system and beyond.
@@ -83,6 +84,7 @@ Bachelor of Science in Health Education (May 2015)
 * Partnered with 7 student organizations to fund the week of events.
 
 # Poster Presentations
+---
 ### Early Childhood Mental Health Network Early Childhood Therapeutic Centers EHR Review
 #### October 2019
 * Presented distributions of clinic utilization based on Electronic Health Record data analysis completed at the New York City Department of Health and Mental Hygiene 

@@ -1,7 +1,7 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Tanu Sreedharan"
+  title: "t-sreed"
   right:
     - text: "Career Experience"
       href: Experience.html
@@ -11,8 +11,8 @@ navbar:
       menu:
       - text: "Instacart Data Analysis Plotly"
         href: Plotly.html
-      - text: "Dashboard of Instacart Data"
-        href: flex_dashboard.html
+      - text: "Dashboard of Airbnb Data"
+        href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<t.sreedharan@columbia.edu>
     - icon: fab fa-linkedin
@@ -21,4 +21,4 @@ navbar:
       href: http://github.com/t-sreed/
 output:
   html_document:
-    theme: journal
+    theme: flatly
