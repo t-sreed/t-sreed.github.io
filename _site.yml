@@ -3,11 +3,19 @@ output_dir: "."
 navbar:
   title: "t-sreed"
   right:
-    - text: "Career Experience"
-      href: Experience.html
-    - text: "Dance Experience"
-      href: Dance-Experience.html
-    - text: "Examples"
+    - text: "Professional Experience"
+      menu:
+      - text: "Career"
+        href: Experience.html
+      - text: "Dance"
+        href: Dance-Experience.html
+    - text: "Presentations & Engagement"
+      menu:
+      - text: "Presentations"
+        href: Presentation.html
+      - text: "Action Week"
+        href: Action_week.html
+    - text: "Samples"
       menu:
       - text: "Instacart Data Analysis Plotly"
         href: Plotly.html
@@ -19,6 +27,8 @@ navbar:
       href: https://www.linkedin.com/in/tanusree-sreedharan-b3a715b5/ 
     - icon: fa-github fa-lg
       href: http://github.com/t-sreed/
+    - text: "Food Justice in NYC"
+    - href: https://mm5351.github.io/foodjusticenyc.github.io/
 output:
   html_document:
     theme: flatly
