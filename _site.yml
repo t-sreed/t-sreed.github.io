@@ -21,14 +21,15 @@ navbar:
         href: Plotly.html
       - text: "Dashboard of Airbnb Data"
         href: dashboard.html
+      - text: "Food Justice in NYC"
+        href: https://mm5351.github.io/foodjusticenyc.github.io/
     - icon: fa-envelope fa-lg
       href: mailto:<t.sreedharan@columbia.edu>
     - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/tanusree-sreedharan-b3a715b5/ 
     - icon: fa-github fa-lg
       href: http://github.com/t-sreed/
-    - text: "Food Justice in NYC"
-    - href: https://mm5351.github.io/foodjusticenyc.github.io/
+
 output:
   html_document:
     theme: flatly
