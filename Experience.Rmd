@@ -78,6 +78,7 @@ SAN FRANCISCO STATE UNIVERSITY
 ---
 
 R.I.S.E. (Resilience, Inclusion, Solidarity, and Empowerment) Mentorship Program | 2019-2020
+
 * Mentored first-generation student of color peers of at Columbia University through navigating the graduate school system and beyond.
 * Collaborated with other mentors to build solidarity and community within the program and broader university through events and social media communications.
 
@@ -94,4 +95,5 @@ R.I.S.E. (Resilience, Inclusion, Solidarity, and Empowerment) Mentorship Program
 ---
 
 Early Childhood Mental Health Network Early Childhood Therapeutic Centers EHR Review | October 2019
+
 * Presented distributions of clinic utilization based on Electronic Health Record data analysis completed at the New York City Department of Health and Mental Hygiene 
