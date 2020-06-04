@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About Tanu"
 output: 
   html_document
 ---
