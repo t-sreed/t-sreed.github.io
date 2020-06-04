@@ -1,0 +1,11 @@
+---
+title: "Poster Presentation"
+output: 
+  html_document
+---
+
+**Early Childhood Mental Health Network Early Childhood Therapeutic Centers EHR Review**
+
+<center><img src="TS_EHR_Poster_FINAL.png" style="width:50%"></center>
+
+* Presented distributions of clinic utilization based on Electronic Health Record data analysis completed at the New York City Department of Health and Mental Hygiene 

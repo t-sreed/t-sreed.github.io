@@ -9,20 +9,22 @@ navbar:
         href: Experience.html
       - text: "Dance"
         href: Dance-Experience.html
-    - text: "Presentations & Engagement"
+    - text: "Presentations"
       menu:
-      - text: "Presentations"
+      - text: "Speech"
         href: Presentation.html
-      - text: "Action Week"
-        href: Action_week.html
+      - text: "Poster"
+        href: Poster.html
     - text: "Samples"
       menu:
-      - text: "Instacart Data Analysis Plotly"
-        href: Plotly.html
+      - text: "Action Week"
+        href: Action_week.html
       - text: "Dashboard of Airbnb Data"
         href: dashboard.html
       - text: "Food Justice in NYC"
         href: https://mm5351.github.io/foodjusticenyc.github.io/
+      - text: "Instacart Data Analysis Plotly"
+        href: Plotly.html
     - icon: fa-envelope fa-lg
       href: mailto:<t.sreedharan@columbia.edu>
     - icon: fab fa-linkedin
