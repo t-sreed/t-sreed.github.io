@@ -10,4 +10,4 @@ output:
 
 **Early Childhood Mental Health Network Early Childhood Therapeutic Centers EHR Review**
 
-<center><img src="TS_EHR_Poster_FINAL.pdf" style="width:55%"></center>
+<center><img src="TS_EHR_Poster_FINAL.png" style="width:65%"></center>
