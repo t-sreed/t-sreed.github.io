@@ -9,36 +9,37 @@ output:
 
 ---
 
-NYC DEPARTMENT OF HEALTH AND MENTAL HYGEINE | Queens, NY
+NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE | Queens, NY
 
-**HRTP INTERN | JUNE 2019 - PRESENT**
+**GRADUATE RESEARCH INTERN | JUNE 2019 - PRESENT**
 
-*	Created Standard Operating Procedure via SAS for quarterly review and analysis mental health assessment and electronic health record data from 7 different early childhood mental health therapeutic centers across NYC
-*	Reviewed data for completion and accuracy 
-*	Cleaned and organized the 28 data sets from 7 clinics for merging into comprehensive datasets using SAS macros 
-*	Ran bivariate analyses to evaluate clinic utilization for each Early Childhood Therapeutic Center across NYC
-*	Supported the creation of analysis plan and write SAS program per analysis plan
+*	Created Standard Operating Procedure for quarterly review and analysis of mental health assessment and electronic health record data from 7 early childhood mental health therapeutic centers across NYC
+* Reviewed electronic health record data for missing data and inaccurate diagnosis/procedure codes to improve quality of data
+*	Cleaned and organized the 28 datasets from 7 clinics using SAS macros for merging into a comprehensive  dataset for annual monitoring purposes 
+*	Ran descriptive and bivariate analyses to evaluate clinic utilization for each Early Childhood Therapeutic Center
+*	Supported the Project Director and the Evaluation and Quality Improvement Specialist in the creation of annual analysis plan and wrote SAS programs per plan
 
-MARIAN WRIGHT EDELMAN INSTITUTE EDVANCE | San Francisco, CA
+EDVANCE AT SAN FRANCISCO STATE UNIVERSITY | San Francisco, CA
 
 **Fiscal Incentives Coordinator | October 2017 - March 2018**
 
 *	Created and distributed outreach materials, including fliers, social media posts, email blasts and telephone calls regarding information about our four distinct early childhood workforce development programs 
 *	Collected, compiled, analyzed and updated applicant data to the California Early Care & Education Registry
 *	Conducted over 50 presentations in college classrooms, preschool staff meetings, and career fairs to provide detailed information about our financial incentive program and application processes
-*	Tracked 400+ student applications and assisted those students via phone and email to complete all materials
+*	Tracked 400+ student applications and assisted those students via phone and email to complete all materials necessary to receive their stipends
 *	Collaborated with stakeholders in the area to provide comprehensive support for applicants 
 
-ONE MEDICAL GROUP | San Francisco, CA
 
-**Patient Care Coordinator/Billing Specialist | December 2015 - September 2017**
+ONE MEDICAL | San Francisco, CA
 
-*	Took initiative to research, create, and test practice improvement methods among administrative team
-*	Coordinated and facilitated 4 quarterly extended learning workshops for practice improvement for the staff 
-*	Educated patients about their specific medical coverage and benefits daily in office and via email and telephone
-*	Investigated and posted insurance claim payments to our internal payment system
-*	Worked as a liaison between medical team and patients to address immediate health concerns
-*	Navigated patient barriers to care with primary care team, medical specialists, billing specialists, and patients
+**Billing Specialist | December 2015 - September 2017**
+
+*	Collaborated primary care team, medical specialists, billing specialists, health insurance companies and patients to remove any possible barriers to care
+*	Monitored  administrative team efficiency via tableau and proposed methods of practice improvement
+*	Educated patients about their specific medical coverage and benefits in office and via email and telephone
+*	Investigated billing charges and posted any claim payments to our internal payment system
+*	Worked as a liaison between medical team and patients to address immediate health concerns 
+
 
 SFSU CHILD AND ADOLESCENT DEVELOPMENT DEPARTMENT | Vrygrond, Capetown 
 
@@ -53,13 +54,23 @@ SAN FRANCISCO DEPARTMENT OF PUBLIC HEALTH	| San Francisco, CA
 
 **Project Coordinating Intern | August 2014 - May 2015**
 
-*	Managed communication and logistics for San Francisco Department of Public Health and the Trauma Informed Systems Initiative daily
-*	Researched, developed and implemented numerous employee trainings for 250+ participants per session
+*	Managed communication and logistics for SFDPH and the Trauma Informed Systems Initiative 
+*	Researched, developed and implemented employee trainings for 250+ participants per session
 *	Facilitated monthly on-boarding programs for new trainer cohorts
 
-Skills and Certifications
+# Technical Skills
 
-**RedCap (2019) |R(2019) | SAS Enterprise (2020) | SAS (2019) | Microsoft Office (2015) | HIPPA Certification (2018) | CITI Certification(2018) | Metro Academies Child and Adolescent Development Certificate(2015)**
+---
+
+
+**RedCap | R | SAS Enterprise | SAS | Tablaeu | Microsoft Office**
+
+# Certifications
+
+---
+
+
+**HIPPA Certification (2018) | CITI Certification(2018) | Columbia University Epidemiology of Chronic Disease Certificate | Metro Academies Child and Adolescent Development Certificate(2015)**
 
 # Academic
 
